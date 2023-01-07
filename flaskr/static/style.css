@@ -1,0 +1,65 @@
+#counter_div{
+    float: right;
+    width: calc(100% - 750px);
+    text-align: center;
+}
+
+.counter{
+    margin-top:150px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+
+#game_board{
+    border:15px solid;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.game_board_row{
+    border:5px solid;
+    border-collapse: collapse;
+}
+
+.game_board_square{
+    border:5px solid;
+    width:75px;
+    height:75px;
+    background-color:darkgreen;
+    border-collapse: collapse;
+    text-align:center;
+    vertical-align:bottom;
+}
+
+.black_discs{
+    width: 65px;
+    height:65px;
+}
+
+.white_discs{
+    width:63px;
+    height:63px;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    margin-top: 75px;
+}
+
+.button_div{
+    text-align:center;
+    margin-top: 75px;
+}
+
+button{
+    margin-bottom:50px;
+    width: 200px;
+    font-size: 32px;
+    height: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
